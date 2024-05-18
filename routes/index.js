@@ -6,6 +6,8 @@ router.use('/', require('./swagger'));
 
 router.use('/cars', require('./cars'));
 
+router.use('/users', require('./users.js'));
+
 router.get('/', controllerIndex.indexPage);
 
 
